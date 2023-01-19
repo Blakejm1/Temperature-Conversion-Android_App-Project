@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 String s = inputBox.getText().toString();
                 double x = Double.parseDouble(s);
                 double f = x * 1.8 + 32;
-                outputText.setText("Fahrenheight: " + f);
+                outputText.setText("Fahrenheight = " + f);
             }
         });
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 String s = inputBox2.getText().toString();
                 double x = Double.parseDouble(s);
                 double c = (x - 32) * .5556;
-                outputText2.setText("Celsius: " + c);
+                outputText2.setText("Celsius = " + c);
             }
         });
     }
